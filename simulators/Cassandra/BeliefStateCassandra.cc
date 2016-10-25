@@ -30,8 +30,9 @@ int BeliefStateCassandra::doAction (int action) {
 	
 	// std::cout << "start belief state generation." << std::endl;
 
-	// std::cout << "\nInitial Belief: " << (*belief) << std::endl;
-	// std::cout << "action: " << action << std::endl;
+	std::cout << "\nInitial Belief: " << (*belief) << std::endl;
+	std::cout << "state: " << currState << "   action: " << currAction << 
+        "    obs: " << currObservation; 
 	
 	
 	btp1->clear ();
